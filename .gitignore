@@ -36,3 +36,4 @@ nbdist/
 
 # IntelliJ
 /.idea/
+*.iml
