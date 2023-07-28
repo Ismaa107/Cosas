@@ -11,24 +11,24 @@ public class Smartphone {
         IPHONE, OPPO, SAMSUNG, XIAOMI, ZTE;
         
         //private int num;
-        
+
         /*private Marca (int num) {
-            
+
             this.num = num;
-            
+
         }
-        
+
         public int dameNum () {
-            
+
             return num;
-            
+
         }*/
         
     }
     
     // Propiedades
     
-    private String SO;
+    private String so;
 
     private String procesador;
     
@@ -58,7 +58,7 @@ public class Smartphone {
 
     public Smartphone (String so, String proc, int ram, int almac, int bat, boolean cargaR, double pantalla, int camP, int camF) {
         
-        this.SO = so;
+        this.so = so;
         
         this.procesador = proc;
         
