@@ -52,6 +52,10 @@ public class Smartphone {
     
     // Constructor
     
+
+    public Smartphone() {
+    }
+
     public Smartphone (String so, String proc, int ram, int almac, int bat, boolean cargaR, double pant, int camP, int camF) {
         
         this.SO = so;
