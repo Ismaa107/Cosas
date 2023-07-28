@@ -34,13 +34,13 @@ public class Smartphone {
     
     private int RAM_GB;
     
-    private int almacenamiento_GB;
+    private int almacenamiento;
     
-    private int bateria_mAH;
+    private int bateria;
     
     private boolean cargaRapida;
     
-    private double pantalla_pulgadas;
+    private double pantalla;
     
     private int camaraPrincipal_mpx;
     
@@ -56,7 +56,7 @@ public class Smartphone {
     public Smartphone() {
     }
 
-    public Smartphone (String so, String proc, int ram, int almac, int bat, boolean cargaR, double pant, int camP, int camF) {
+    public Smartphone (String so, String proc, int ram, int almac, int bat, boolean cargaR, double pantalla, int camP, int camF) {
         
         this.SO = so;
         
@@ -64,13 +64,13 @@ public class Smartphone {
         
         this.RAM_GB = ram;
         
-        this.almacenamiento_GB = almac;
+        this.almacenamiento = almac;
         
-        this.bateria_mAH = bat;
+        this.bateria = bat;
         
         this.cargaRapida = cargaR;
         
-        this.pantalla_pulgadas = pant;
+        this.pantalla = pantalla;
         
         this.camaraPrincipal_mpx = camP;
         
