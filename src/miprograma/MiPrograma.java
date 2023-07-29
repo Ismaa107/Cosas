@@ -14,49 +14,52 @@ public class MiPrograma {
      */
     public static void main(String[] args) {
         
-        Marca m;
-        
-        m = Marca.ZTE;
+        // Conseguir marca.
+        Marca m = Marca.ZTE;
         
         Scanner entrada = new Scanner(System.in);
         
-        System.out.println("1.- Iphone. \n 2.- Oppo. \n 3.- Samsung. \n 4.- Xiaomi. \n 5.- ZTE.");
+        System.out.println("Selecciona la marca del smartphone: \n 1.- Iphone. \n 2.- Oppo. \n 3.- Samsung. \n 4.- Xiaomi. \n 5.- ZTE.");
         
         int numMarca = entrada.nextInt();
         
-        /*switch (m) {
+        switch (numMarca) {
             
-            case IPHONE:
+            case 1:
                 
-                Marca.IPHONE;
-                
-                break;
-                
-            case OPPO:
-                
-                Marca.OPPO;
+                m = Marca.IPHONE;
                 
                 break;
                 
-            case SAMSUNG:
-                
-                Marca.SAMSUNG;
-                
-                break;
-                
-            case XIAOMI:
-                
-                Marca.XIAOMI;
+            case 2:
+
+                m = Marca.OPPO;
                 
                 break;
                 
-            case ZTE:
+            case 3:
+
+                m = Marca.SAMSUNG;
                 
-                Marca.ZTE;
+                break;
+                
+            case 4:
+
+                m = Marca.XIAOMI;
+                
+                break;
+                
+            case 5:
+
+                m = Marca.ZTE;
                 
                 break;
             
-        }*/
+        }
+
+        System.out.println("Marca elegida: " + m);
+
+        //
         
     }
     
